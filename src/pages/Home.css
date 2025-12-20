@@ -1,3 +1,22 @@
-*{
-    background-color: #202C39;
+
+h1{
+    color:#F29559;
+    font-family: "Silkscreen", sans-serif;
+
 }
+h3{
+    color:#F29559;
+    font-family: "Silkscreen", sans-serif;
+
+}
+.home {
+    position: relative;
+  }
+  
+  .map-wrapper {
+    position: relative;
+    z-index: 2;
+    background-color: #283845;
+    width: 500px;
+
+  }
