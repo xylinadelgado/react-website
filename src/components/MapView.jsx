@@ -18,6 +18,5 @@ export default function MapView() {
   if (!isLoaded) return <div>Loading map…</div>;
 
   return <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={11} />;
-  console.log("MAPS KEY?", !!import.meta.env.VITE_GOOGLE_MAPS_API_KEY);
 
 }
