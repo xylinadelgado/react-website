@@ -9,10 +9,8 @@ import Contact from "./pages/Contact";
 function App() {
   const [searchQuery, setSearchQuery] = useState("");
 
-  console.log("APP searchQuery:", searchQuery);
-
-  const handleSearch = (queryText) => {
-    setSearchQuery(queryText);
+  const handleSearch = (q) => {
+    setSearchQuery(q);
   };
 
   return (

@@ -53,7 +53,7 @@ const coffeeShopSchema = new Schema(
   { timestamps: true }
 );
 
-// IMPORTANT: geospatial index
+
 coffeeShopSchema.index({ location: "2dsphere" });
 
 module.exports = mongoose.model("CoffeeShop", coffeeShopSchema);

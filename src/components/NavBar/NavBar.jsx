@@ -19,12 +19,8 @@ function NavBar({ onSearch }) {
       </Link>
 
       <div className="nav-links">
-        <NavLink to="/about" className="nav-link">
-          About
-        </NavLink>
-        <NavLink to="/contact" className="nav-link">
-          Contact
-        </NavLink>
+        <NavLink to="/about" className="nav-link">About</NavLink>
+        <NavLink to="/contact" className="nav-link">Contact</NavLink>
       </div>
 
       <div className="nav-actions">

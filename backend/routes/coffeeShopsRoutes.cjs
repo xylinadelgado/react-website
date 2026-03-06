@@ -5,7 +5,7 @@ const {
 
 } = require("../controllers/coffeeShopsControllers.cjs");
 
-//} = require("../controllers/coffeeShopsControllers.cjs"); // must match your filename exactly
+
 
 const router = express.Router();
 

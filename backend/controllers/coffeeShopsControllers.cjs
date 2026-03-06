@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-//const CoffeeShops = require("../Models/coffeeShops.cjs"); // adjust if your folder/file differs
+
 const CoffeeShops = require("../Models/coffeeShops.cjs");
 
 const getAllCoffeeShops = async (req, res) => {

@@ -1,0 +1,13 @@
+.place-list {
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 16px;
+  padding: 12px;
+  height: 420px;
+  overflow: auto;
+  background: white;
+}
+
+.place-list__header {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
