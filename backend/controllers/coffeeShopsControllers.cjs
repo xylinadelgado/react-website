@@ -1,5 +1,8 @@
 const mongoose = require("mongoose");
+<<<<<<< HEAD
 
+=======
+>>>>>>> b97e4dd11cea4a5cd9789bc3a5dfca4dcc78cf08
 const CoffeeShops = require("../Models/coffeeShops.cjs");
 
 const getAllCoffeeShops = async (req, res) => {
