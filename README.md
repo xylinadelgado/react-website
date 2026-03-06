@@ -13,7 +13,7 @@ Hello my name is Xylina and i was born and raised in Phoenix, arizona. I have a 
 
 ## Technologies Used
 - React + vite
-- Node.js/ Express
+- Mongoose/ Express
 - css
 
 ## Setup/Installation
